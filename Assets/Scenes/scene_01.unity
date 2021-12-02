@@ -378,7 +378,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -477,6 +477,7 @@ GameObject:
   - component: {fileID: 648820807}
   - component: {fileID: 648820806}
   - component: {fileID: 648820805}
+  - component: {fileID: 648820804}
   m_Layer: 0
   m_Name: OSC
   m_TagString: Untagged
@@ -484,6 +485,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &648820804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648820803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43add6fd728404445ba2dc168f377758, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  address: /but2
 --- !u!114 &648820805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -526,9 +540,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Coin GameObject","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Coin 1 GameObject","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Coin
+      2 GameObject","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 7527894957343101279, guid: 3fac5fdd00c58f34995c769e2fac051c, type: 3}
+    - {fileID: 7192412296050428641, guid: 200f1f25bdc0829429ebe6fbe1213941, type: 3}
 --- !u!114 &648820808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -584,7 +600,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &809280266
 PrefabInstance:
@@ -892,7 +908,7 @@ Transform:
   m_LocalScale: {x: 29.7461, y: 13.4424, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1320487887
 GameObject:
@@ -966,7 +982,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1411740030
 GameObject:
@@ -1140,7 +1156,7 @@ RectTransform:
   - {fileID: 1411740031}
   - {fileID: 333422845}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1490,9 +1506,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Coin GameObject","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences:
-    - {fileID: 7527894957343101279, guid: 3fac5fdd00c58f34995c769e2fac051c, type: 3}
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!4 &1679951917
 Transform:
   m_ObjectHideFlags: 0
@@ -1505,7 +1520,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2044145575
 GameObject:
@@ -1586,3 +1601,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2044145575}
   m_CullTransparentMesh: 1
+--- !u!1001 &2129027934
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7192412296050428639, guid: 200f1f25bdc0829429ebe6fbe1213941, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192412296050428639, guid: 200f1f25bdc0829429ebe6fbe1213941, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192412296050428639, guid: 200f1f25bdc0829429ebe6fbe1213941, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192412296050428639, guid: 200f1f25bdc0829429ebe6fbe1213941, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192412296050428639, guid: 200f1f25bdc0829429ebe6fbe1213941, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192412296050428639, guid: 200f1f25bdc0829429ebe6fbe1213941, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192412296050428639, guid: 200f1f25bdc0829429ebe6fbe1213941, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192412296050428639, guid: 200f1f25bdc0829429ebe6fbe1213941, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192412296050428639, guid: 200f1f25bdc0829429ebe6fbe1213941, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192412296050428639, guid: 200f1f25bdc0829429ebe6fbe1213941, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192412296050428639, guid: 200f1f25bdc0829429ebe6fbe1213941, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7192412296050428641, guid: 200f1f25bdc0829429ebe6fbe1213941, type: 3}
+      propertyPath: m_Name
+      value: coin
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 200f1f25bdc0829429ebe6fbe1213941, type: 3}
