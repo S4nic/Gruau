@@ -1,5 +1,5 @@
 int valeurPrecedenteInterrupteur;
-int brocheInterrupteur = 1;
+int brocheInterrupteur = 4;
 
 int valeurPrecedenteInterrupteur2;
 int brocheInterrupteur2 = 3;
