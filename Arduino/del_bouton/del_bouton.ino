@@ -39,12 +39,12 @@ void loop() {
   
 
   if(valeurPrecedenteInterrupteur != nouvelleValeurInterrupteur) {
-    Serial.print("but ");
+    Serial.print("/but ");
     Serial.println(nouvelleValeurInterrupteur);
     valeurPrecedenteInterrupteur = nouvelleValeurInterrupteur;
   }
   if(valeurPrecedenteInterrupteur2 != nouvelleValeurInterrupteur2) {
-    Serial.print("but2 ");
+    Serial.print("/but2 ");
     Serial.println(nouvelleValeurInterrupteur2);
     valeurPrecedenteInterrupteur2 = nouvelleValeurInterrupteur2;
   }
