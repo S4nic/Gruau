@@ -1,10 +1,10 @@
 
 #include <Adafruit_NeoPixel.h>
 int valeurPrecedenteInterrupteur;
-int brocheInterrupteur = 3;
+int brocheInterrupteur = 1;
 
 int valeurPrecedenteInterrupteur2;
-int brocheInterrupteur2 = 4;
+int brocheInterrupteur2 = 3;
 
 #define PIN 6 // output to Neopixel 
 #define NUM_LEDS 32 // 60 leds Per meter, so 60*4 Leds
