@@ -1,8 +1,8 @@
 int valeurPrecedenteInterrupteur;
-int brocheInterrupteur = 3;
+int brocheInterrupteur = 1;
 
 int valeurPrecedenteInterrupteur2;
-int brocheInterrupteur2 = 4;
+int brocheInterrupteur2 = 3;
 
 void setup() {
   // put your setup code here, to run once:
